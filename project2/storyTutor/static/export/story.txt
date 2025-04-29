@@ -1,0 +1,18 @@
+Scene 1:
+In a world of code, a young programmer, Alex, discovered Python's flow control, a realm of 'if', 'else', and 'for' statements that would change her coding journey forever. 
+
+Options to continue:
+1. Meeting a mentor
+2. Solving a puzzle
+3. Debugging a project
+Choice: Option B
+
+Scene 2:
+Scene 2: Alex stumbled upon a puzzle: a locked box with a Python riddle, requiring a conditional statement to unlock, testing her newfound understanding of 'if' and 'else'. 
+
+Options to continue:
+1. Cracking the code with a friend
+2. Using a 'for' loop to brute-force
+3. Discovering a hidden 'elif' clue
+Choice: Option A
+

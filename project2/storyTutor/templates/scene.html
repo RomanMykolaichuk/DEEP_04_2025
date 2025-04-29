@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<h2>Scene {{ scene_number }}</h2>
+<img src="/{{ scene.image }}" width="500"><br>
+<p>{{ scene.text }}</p>
+
+<audio controls>
+  <source src="/{{ scene.audio }}" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<form method="POST">
+  {% for opt in scene.options %}
+    <button class="option-button" type="submit" name="option" value="{{ opt }}">{{ opt }}</button><br>
+  {% endfor %}
+</form>
+

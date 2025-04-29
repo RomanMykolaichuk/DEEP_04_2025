@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<form method="POST">
+    <label>Topic:</label>
+    <input type="text" name="topic" required><br>
+    <label>Number of scenes:</label>
+    <input type="number" name="num_scenes" value="5" min="1" max="10"><br>
+    <button type="submit">Start Story</button>
+  </form>
+  

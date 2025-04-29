@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<h2>Story Completed!</h2>
+
+{% for scene in scenes %}
+  <p><strong>Scene {{ loop.index }}:</strong> {{ scene.text }}</p>
+  <p><em>Choice:</em> {{ choices[loop.index0] }}</p>
+  <hr>
+{% endfor %}
+
+<a href="{{ url_for('download_zip') }}">
+  <button class="option-button">Download Story ZIP</button>
+</a>
+
+
+  
+<a href="{{ url_for('reset') }}">Start Over</a>
