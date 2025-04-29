@@ -10,16 +10,16 @@ client = Groq(api_key=api_key)
 
 def build_prompt(topic, scenes, choices):
     prompt = f"You are an educational storyteller for adults. The topic is: '{topic}'.\n"
-    prompt += "The story must be written in clear, engaging English with educational content. At the end of each part, suggest 3 short, plausible options to continue the story.\n\n"
+    prompt += "The story must be written in clear, engaging English to use as educational content. At the end of each part, suggest 3 short, plausible options to continue the story.\n\n"
 
     for i, scene in enumerate(scenes):
         prompt += f"Scene {i+1}:\n{scene['text']}\n"
         if i < len(choices):
             prompt += f"Chosen Option: {choices[i]}\n"
 
-    prompt += "\nNow continue the story with the next scene (about 30 words), "
+    prompt += "\nNow continue the story with the next scene (about 100 words), "
     "and provide three short, user-selectable continuation options.\n"
-    "Only return the story scene as plain text. List the 3 options on separate lines, without bullet points.\n"
+    "Only return the story scene as plain text. List the 3 options after Options: on separate lines, without bullet points.\n"
     "Answer should be given in format:\nScene:\n[Text]\n Options:\n [Option 1]\n[Option 2]\n[Option 3]"
     return prompt
 

@@ -1,27 +1,49 @@
 Scene 1:
-In a futuristic lab, a team of researchers huddled around a computer, marveling at an AI-generated image of a realistic, sunset-lit landscape. 
+As the sun set over the coding village, a young programmer named Ava sat at her desk, staring at her Python script. She was trying to create a program that would make decisions based on user input, but she was struggling to understand the concept of flow control. Suddenly, a wise old coder appeared beside her, saying, "Ava, my dear, flow control is like navigating a river. You must use the right tools to steer your code in the right direction." Ava's eyes widened with curiosity, eager to learn more.
 
-Options to continue:
-1. They debated its artistic value.
-2. The team leader explained the tech.
-3. A skeptic questioned its authenticity.
-Choice: Option B
+Here are three options to continue the story:
+1. Ava asks the old coder to explain the basics of if-else statements.
+2. The old coder hands Ava a map that represents a Python program with loops and conditional statements.
+3. Ava and the old coder decide to take a walk along the river to discuss the concept of switch cases in Python.
+Choice: Option A
 
 Scene 2:
-The team leader, Dr. Rachel, began explaining the tech, "This AI uses a generative adversarial network, or GAN, to create realistic images from scratch."
+Scene 2:
+Ava's curiosity got the better of her, and she asked the old coder to explain the basics of if-else statements. The old coder smiled, "Imagine you're at a river fork, and you need to decide which path to take. If-else statements are like signs that guide you. 'If' it's sunny, you take the left path, 'else' you take the right path." Ava's eyes lit up as she began to understand. The old coder continued, "In Python, you can write this as 'if condition: action', and if the condition is false, you can add an 'else' clause with an alternative action." 
 
-Options to continue:
-1. She delved into the neural network architecture.
-2. A team member asked about potential applications.
-3. Dr. Rachel discussed the training data used.
+Here are three options to continue the story:
+1. Ava asks the old coder to demonstrate how to use if-else statements with a simple example.
+2. The old coder introduces Ava to the concept of nesting if-else statements, like a river with multiple forks.
+3. Ava wants to learn about the 'elif' statement, and how it can be used to handle multiple conditions.
 Choice: Option A
 
 Scene 3:
-Scene 3: Dr. Rachel illustrated the GAN's neural network architecture, showing how generator and discriminator nodes interacted to refine image quality through iterative feedback loops.
+Scene 3:
+Ava asked the old coder to demonstrate how to use if-else statements with a simple example. The old coder nodded, "Let's say we want to write a program that greets the user based on the time of day. We can use an if-else statement to check if it's morning or not." The old coder typed out a simple Python script, `if hour < 12: print("Good morning!") else: print("Good afternoon!")`. Ava's eyes widened as she saw the code in action, and she felt a sense of excitement and understanding.
 
-Options to continue:
-1. A team member asked about the computational requirements.
-2. Dr. Rachel discussed the challenges of mode collapse.
-3. The team explored the potential for style transfer.
+Here are three options to continue the story:
+1. Ava wants to learn about the 'and' and 'or' operators, and how they can be used to combine conditions.
+2. The old coder introduces Ava to the concept of for loops, and how they can be used to iterate over a list of items.
+3. Ava asks the old coder to explain how to use if-else statements with functions, to make her code more modular and reusable.
+Choice: Option A
+
+Scene 4:
+Scene 4:
+Ava's curiosity led her to ask about the 'and' and 'or' operators. The old coder smiled, "These operators are like river currents that combine to change the flow. 'And' requires both conditions to be true, while 'or' requires at least one to be true." The old coder typed out an example, `if hour < 12 and day == "Monday": print("Happy Monday morning!")`. Ava saw how the conditions combined to produce a specific outcome, and her understanding of flow control deepened. She began to envision the possibilities of using these operators in her own code.
+
+Here are three options to continue the story:
+1. Ava asks the old coder to explain how to use the 'not' operator to negate a condition.
+2. The old coder introduces Ava to the concept of list comprehensions, and how they can be used with conditional statements.
+3. Ava wants to learn about the difference between the '==' and '!=' operators, and how they can be used to compare values.
+Choice: Option C
+
+Scene 5:
+Scene 5:
+Ava's curiosity turned to comparisons, and she asked the old coder about the difference between '==' and '!=' operators. The old coder explained, "These operators are like river gauges, measuring the equality of values. '==' checks if two values are equal, while '!=' checks if they are not equal." The old coder illustrated with examples, `if name == "Ava": print("Welcome Ava!")` and `if name != "Ava": print("Hello stranger!")`. Ava grasped the concept, realizing how these operators could be used to make decisions in her code.
+
+Here are three options to continue the story:
+1. Ava wants to learn about the 'in' operator, and how it can be used to check if a value is in a list or string.
+2. The old coder introduces Ava to the concept of dictionaries, and how they can be used with conditional statements.
+3. Ava asks the old coder to explain how to use the 'break' and 'continue' statements to control loops.
 Choice: Option A
 

@@ -1,49 +1,86 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 30px;
-    background-color: #f8f9fa;
-    color: #333;
-  }
-  
-  h1, h2 {
-    color: #2c3e50;
-  }
-  
-  img {
-    max-width: 100%;
-    margin: 20px 0;
-    border-radius: 10px;
-  }
-  
-  .audio-player {
-    margin: 20px 0;
-  }
-  
-  .option-button {
-    display: block;
-    margin: 10px 0;
-    padding: 10px 15px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
-    width: 100%;
-    max-width: 400px;
-  }
-  
-  .option-button:hover {
-    background-color: #2980b9;
-  }
-  
-  .story-block {
-    margin-bottom: 30px;
-  }
-  
-  hr {
-    margin: 30px 0;
-    border: 0;
-    border-top: 1px solid #ccc;
-  }
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  background: linear-gradient(120deg, #f0f4f8, #ffffff);
+  color: #2c3e50;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+form, .story-block, .scene-container {
+  background-color: #ffffff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+button,
+.option-button {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  margin: 12px auto;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+.option-button:hover {
+  background-color: #005fa3;
+}
+
+img {
+  max-width: 100%;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.audio-player {
+  margin: 20px 0;
+}
+
+hr {
+  margin: 30px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
