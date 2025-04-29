@@ -1,8 +1,9 @@
 .env
 *presentation*.pptx
 *.zip
-*.mp3
+*.mp*
 *.png
 *.pyc
+
 
 
