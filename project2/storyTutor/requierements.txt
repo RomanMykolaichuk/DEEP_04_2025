@@ -4,6 +4,5 @@ python-dotenv
 groq
 google-generativeai
 gtts
-genai
-google
+google-genai
 
